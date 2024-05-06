@@ -604,6 +604,16 @@ img {
   color: rgba(46, 47, 66, 0.4);
 }
 
+.form-checkbox:checked + .form-checkbox-label .form-own-checkbox {
+  background-color: #404bbf;
+  border-color: #404bbf;
+  fill: #ffffff;
+}
+
+.form-checkbox:focus + .form-checkbox-label .form-own-checkbox {
+  outline: 2px solid #404bbf;
+}
+
 .form-checkbox-label {
   font-size: 12px;
   line-height: 1.17;
@@ -619,6 +629,37 @@ img {
   line-height: 1.33;
   text-decoration: underline;
   color: #4d5ae5;
+}
+
+.form-own-checkbox {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  fill: transparent;
+}
+
+.form-submit {
+  display: block;
+  border: none;
+  border-radius: 4px;
+  min-width: 169px;
+  padding: 16px 32px;
+  height: 56px;
+  font-family: inherit;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.04em;
+  margin: 0 auto;
 }
 
 .backdrop.is-open {

@@ -129,14 +129,19 @@
           <div class="form-checkbox-wrapper">
             <input
               type="checkbox"
-              class="form-checkbox"
+              class="form-checkbox visually-hidden"
               id="privacy-policy"
               name="privacy-policy"
               value="true"
               required
             />
-            <label for="privacy-policy" class="form-checkbox-label"
-              >I accept the terms and conditions of the
+            <label for="privacy-policy" class="form-checkbox-label">
+              <span class="form-own-checkbox">
+                <svg class="form-own-checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>
+              I accept the terms and conditions of the
               <a href="" class="privacy-policy-link">Privacy Policy</a></label
             >
           </div>
