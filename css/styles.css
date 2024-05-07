@@ -322,7 +322,7 @@ img {
 .footer-sub-input {
   width: 264px;
   height: 40px;
-  border: 1px soli #ffffff;
+  border: 1px solid #ffffff;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: transparent;
@@ -349,7 +349,7 @@ footer-sub-input::placeholder {
 .footer-sub-button {
   border-radius: 4px;
   padding: 8px 24px;
-  width: 165px;
+  min-width: 165px;
   height: 40px;
   background: #4d5ae5;
   font-family: inherit;
@@ -364,6 +364,10 @@ footer-sub-input::placeholder {
   justify-content: center;
   border: none;
   margin-left: 24px;
+}
+
+.footer-sub-icon {
+  margin-left: 16px;
 }
 .our-team {
   background-color: #f4f4fd;
